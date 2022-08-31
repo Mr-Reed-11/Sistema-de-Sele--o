@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <h1>Projeto de Montagem</h1>
+
+    <h3>Planos de Internet</h3>
+
+    <input id="p1" type="radio" name="internet" value="1" onClick=update()>
+    <label> Plano normal </label>
+    <input id="p2" type="radio" name="internet" value="2" onClick=update()>
+    <label> Plano gold </label>
+    <input id="p3" type="radio" name="internet" value="3" onClick=update()>
+    <label> Plano premium </label>
+
+    <br/>
+    <br/>
+
+    <h3>Planos de TV</h3>
+
+    <input id="p4" type="radio" name="tv" value="1" onClick=update()>
+    <label> Plano 10 canais </label>
+    <input id="p5" type="radio" name="tv" value="2" onClick=update()>
+    <label> Plano 50 canais </label>
+    <input id="p6" type="radio" name="tv" value="3" onClick=update()>
+    <label> Plano 90 canais </label>
+
+    <br/>
+    <br/>
+    <table id="tb_planos" border="1">
+        <thead>
+            <td>
+                Plano
+            </td>
+            <td>
+                Descrição
+            </td>
+            <td>
+                Valor
+            </td>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <table id="tb_total" border="1">
+        <thead>
+            <td style="width:35px">
+                Total
+            </td>
+            <td style="width:110px" id="valor">
+                
+            </td>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script src="code.js"></script>
+</body>
+</html>
